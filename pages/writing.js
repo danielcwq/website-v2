@@ -20,6 +20,7 @@ const Writing = () => {
               <li>
                 <Link
                   href="https://danielching.substack.com/p/from-sojourner-to-soldier"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   From Sojourner to Soldier (Jan - June 2023)
@@ -31,6 +32,7 @@ const Writing = () => {
               <li>
                 <Link
                   href="https://danielching.substack.com/p/2022-wrapped"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   2022 Wrapped: Lessons learnt from high school in Singapore
@@ -41,6 +43,7 @@ const Writing = () => {
               <li>
                 <Link
                   href="https://danielching.substack.com"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   More reflections on Substack
@@ -52,6 +55,7 @@ const Writing = () => {
               <li>
                 <Link
                   href="https://medium.com/@danielching/surviving-jc-finding-purpose-having-perspective-being-grounded-d48eb9ef54a0"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   Surviving JC: finding purpose, being grounded
@@ -62,6 +66,7 @@ const Writing = () => {
               <li>
                 <Link
                   href="https://medium.com/educere/the-power-of-range-6bcadb3980fb"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   The Power of Range
@@ -72,6 +77,7 @@ const Writing = () => {
               <li>
                 <Link
                   href="https://medium.com/studentsxstudents/a-teenagers-foray-into-the-world-of-artificial-intelligence-868e5145ab92"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   A Teenager's Foray into the World of AI

@@ -3,10 +3,13 @@ import Router from "next/router";
 import Script from "next/script";
 import { Open_Sans } from "next/font/google";
 import { useState, useEffect } from "react";
+import Head from "next/head";
+import Navigation from "../components/Navigation";
 
 const font = Open_Sans({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }) {
+  const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
     const handleRouteChange = (url) => {
       window.gtag("config", "G-QZJT2NSHP5", {
@@ -22,8 +25,25 @@ export default function App({ Component, pageProps }) {
       Router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, []);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+    localStorage.setItem("darkMode", darkMode);
+  }, [darkMode]);
+
   return (
     <main className={font.className}>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Daniel Ching" />
+        <title>Daniel Ching</title>
+      </Head>
+
       <Component {...pageProps} />
       <div className="container">
         <Script

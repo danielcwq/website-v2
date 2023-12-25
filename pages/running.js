@@ -29,7 +29,8 @@ const Writing = () => {
             <ul className="list-disc pl-5">
               <li>
                 <Link
-                  href="https://danielching.substack.com/p/from-sojourner-to-soldier"
+                  href="https://betterhumans.pub/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   2.4km Training Guide (top google search result)
@@ -38,20 +39,22 @@ const Writing = () => {
                 targetted towards beginners.
               </li>
             </ul>
-            <ul className="list-disc pl-5 mt-2 md:mt-6">
+            <ul className="list-disc pl-5 mt-2 md:mt-4">
               <li>
                 <Link
-                  href="https://danielching.substack.com/p/2022-wrapped"
+                  href="https://betterhumans.pub/preventing-overtraining-achieving-sustainable-growth-c47fcc6c2d7f"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   Preventing Overtraining: Achieving Sustainable Growth
                 </Link>
               </li>
             </ul>{" "}
-            <ul className="list-disc pl-5 mt-2 md:mt-6">
+            <ul className="list-disc pl-5 mt-2 md:mt-4">
               <li>
                 <Link
-                  href="https://danielching.substack.com/p/2022-wrapped"
+                  href="https://ippt-run-calc.vercel.app/"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   An all-in-one running calculator for zonal training using
@@ -59,13 +62,26 @@ const Writing = () => {
                 </Link>
               </li>
             </ul>{" "}
-            <ul className="list-disc pl-5 mt-2 md:mt-6">
+            <ul className="list-disc pl-5 mt-2 md:mt-4">
               <li>
                 <Link
-                  href="https://danielching.substack.com"
+                  href="https://ippttraining-danielcwq.vercel.app/"
+                  target="_blank"
                   className="hover:text-blue-600"
                 >
                   Running Made Simple
+                </Link>
+              </li>
+            </ul>
+            <ul className="list-disc pl-5 mt-2 md:mt-4">
+              <li>
+                <Link
+                  href="https://gist.github.com/danielcwq/924426528ee7134dc823567d4f20008f"
+                  target="_blank"
+                  className="hover:text-blue-600"
+                >
+                  A script to sync Strava club activities to Google Sheets,
+                  hosted on Heroku.
                 </Link>
               </li>
             </ul>
@@ -89,6 +105,9 @@ const Writing = () => {
               <li>Alan Couzens</li>
             </ul>
             <ul className="list-disc pl-5 mt-2 md:mt-4">
+              <li>Inigo San Milan</li>
+            </ul>
+            <ul className="list-disc pl-5 my-2 md:my-4">
               <li>Marco Altini</li>
             </ul>
           </div>

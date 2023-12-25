@@ -66,6 +66,7 @@ export default function Home() {
                   Or, watch a video series about what I went through{" "}
                   <Link
                     href="https://www.youtube.com/playlist?list=PLbOSqJKglMt2AJ-69deeKbyERniShol-9"
+                    target="_blank"
                     className="hover:text-blue-600"
                   >
                     {" "}
@@ -74,6 +75,7 @@ export default function Home() {
                   and{" "}
                   <Link
                     href="https://www.youtube.com/watch?v=nptHm4vi-0Y&ab_channel=RepublicofSingaporeNavy"
+                    target="_blank"
                     className="hover:text-blue-600"
                   >
                     here (Navy OCS, Midshipmen School).
@@ -87,6 +89,7 @@ export default function Home() {
                   <li>
                     <Link
                       href="https://ippttraining-danielcwq.vercel.app/"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       Running Made Simple (beta)
@@ -102,6 +105,7 @@ export default function Home() {
                     GoogleHQ, in conjunction with DataScienceSG.{" "}
                     <Link
                       href="https://docs.google.com/presentation/d/12lZrQ2gG6qEieqyHEI7lOzn1BRzkk8L0fM6etlkwb5w/edit?usp=sharing"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       (Slide deck)
@@ -112,6 +116,7 @@ export default function Home() {
                   <li>
                     <Link
                       href="https://huggingface.co/spaces/danielcwq/chat-your-data-trial"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       Chat-Your-H2-Econs:
@@ -125,6 +130,7 @@ export default function Home() {
                     ML x Health Projects using FastAI (articles):
                     <Link
                       href="https://towardsdatascience.com/under-the-hood-how-do-neural-networks-really-work-7b48b171dc8c"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       {" "}
@@ -133,6 +139,7 @@ export default function Home() {
                     ,
                     <Link
                       href="https://danielching.medium.com/multi-category-classification-of-various-chest-conditions-from-chest-x-rays-1d6428522997"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       {" "}
@@ -141,6 +148,7 @@ export default function Home() {
                     ,
                     <Link
                       href="https://towardsdatascience.com/predicting-medical-specialities-from-transcripts-a-complete-walkthrough-using-ulmfit-b8a075777723"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       {" "}
@@ -152,6 +160,7 @@ export default function Home() {
                   <li>
                     <Link
                       href="https://drive.google.com/drive/folders/15ly0fkBH7BY6u9ELdeBSzmKbyIhlTk0B"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       FastAI for high school students:
@@ -160,10 +169,11 @@ export default function Home() {
                     ambitious teenagers could do with focus :).
                   </li>
                 </ul>
-                <ul className="list-disc pl-5 mt-2 md:mt-6">
+                <ul className="list-disc pl-5 my-3 md:my-6">
                   <li>
                     <Link
                       href="https://dancwq2.wixsite.com/rise-project"
+                      target="_blank"
                       className="hover:text-blue-600"
                     >
                       RISE For The World:
