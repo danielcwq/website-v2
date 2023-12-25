@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Light mode styles */
+.text-color {
+    color: #111827; /* Dark text for light background */
+  }
+  .bg-color {
+    background-color: #f9fafb; /* Light background */
+  }
+  
+  
+.dark .text-custom {
+    color: #dae1e7; /* Light text color for dark mode */
+  }
+  .dark .bg-custom {
+    background-color: #2d3748; /* Dark background color for dark mode */
+  }
+.dark {
+    transition: background-color 300ms ease-in-out;
+}
+.custom-disc {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  
+  .custom-disc li::marker {
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: #333; /* Adjust the color as needed, consider dark mode too */
+  }
+  
