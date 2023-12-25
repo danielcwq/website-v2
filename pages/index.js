@@ -26,17 +26,18 @@ export default function Home() {
       <div className="mx-auto px-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white">
         <div className="flex ">
           <div className="flex flex-col md:flex-row min-h-screen">
-            <div className="fixed">
+            <div className="fixed z-10">
               <Navigation />
             </div>
           </div>
           <main className="flex-1 flex flex-col items-center justify-start items-start">
             <div className="max-w-2xl mx-auto w-full pt-8">
               <div className="flex flex-col items-center justify-center">
-                <div className="w-48 h-48 rounded-full overflow-hidden relative">
+                <div className="w-48 h-48 rounded-full relative">
                   <Image
                     src="/mugshotfinalmin.png"
                     layout="fill"
+                    className="z-0"
                     objectFit="cover"
                   ></Image>
                 </div>
