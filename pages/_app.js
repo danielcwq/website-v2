@@ -4,6 +4,9 @@ import Script from "next/script";
 import { Open_Sans } from "next/font/google";
 import { useState, useEffect } from "react";
 import Head from "next/head";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
+
 import Navigation from "../components/Navigation";
 
 const font = Open_Sans({ subsets: ["latin"] });
@@ -43,7 +46,7 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content="Daniel Ching" />
         <title>Daniel Ching</title>
       </Head>
-
+      <DefaultSeo {...SEO} />
       <Component {...pageProps} />
       <div className="container">
         <Script
