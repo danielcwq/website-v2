@@ -86,29 +86,34 @@ const Writing = () => {
               </li>
             </ul>
             <h2 className="text-lg font-semibold mt-4">
-              The following people do the best job at explaining physiological
+              The following people do the best job at explaining physiology
               concepts on Twitter-
             </h2>
             <ul className="list-disc pl-5 mt-2 md:mt-4">
-              <li>Dr Scott Carlin</li>
+              <li>
+                Dr Scott Carlin (physical therapist, strength exercises for
+                runners)
+              </li>
             </ul>
             <ul className="list-disc pl-5 mt-2 md:mt-4">
-              <li>Brady Holmer</li>
+              <li>
+                Brady Holmer (author of Physiologically Speaking newsletter)
+              </li>
             </ul>
             <ul className="list-disc pl-5 mt-2 md:mt-4">
-              <li>Daniel Rowland</li>
+              <li>Daniel Rowland (sports science research)</li>
             </ul>
             <ul className="list-disc pl-5 mt-2 md:mt-4">
-              <li>Stephen Seiler</li>
+              <li>Stephen Seiler (physiology specialist)</li>
             </ul>
             <ul className="list-disc pl-5 mt-2 md:mt-4">
-              <li>Alan Couzens</li>
+              <li>Alan Couzens (physiology specialist / dev)</li>
             </ul>
             <ul className="list-disc pl-5 mt-2 md:mt-4">
-              <li>Inigo San Milan</li>
+              <li>Inigo San Milan (physiology)</li>
             </ul>
             <ul className="list-disc pl-5 my-2 md:my-4">
-              <li>Marco Altini</li>
+              <li>Marco Altini (founder of HRV4Training)</li>
             </ul>
           </div>
         </div>
