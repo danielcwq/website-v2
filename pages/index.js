@@ -33,7 +33,7 @@ export default function Home() {
           <main className="flex-1 flex flex-col items-center justify-start items-start">
             <div className="max-w-2xl mx-auto w-full pt-8">
               <div className="flex flex-col items-center justify-center">
-                <div className="w-48 h-48 rounded-full relative">
+                <div className="w-48 h-48 rounded-full overflow-hidden relative">
                   <Image
                     src="/mugshotfinalmin.png"
                     layout="fill"
