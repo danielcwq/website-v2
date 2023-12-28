@@ -18,9 +18,28 @@ const Writing = () => {
           </p>
           <p className="mt-5">
             I read up on sports science research papers in my free time, so feel
-            free to contact me if you want to bounce ideas. I have a working
-            list of ideas that I'm thinking about here. You can find my Strava
-            here.
+            free to{" "}
+            <Link
+              href="mailto:dancwq2@gmail.com"
+              className="hover:text-blue-600"
+            >
+              contact me
+            </Link>{" "}
+            if you want to bounce ideas. I have a working list of ideas that I'm
+            thinking about{" "}
+            <Link
+              href="https://danielching.notion.site/continuous-collation-of-sports-science-ideas-bcb212b62a2746529b0661755c3dea98?pvs=4"
+              className="hover:text-blue-600"
+            >
+              here.
+            </Link>{" "}
+            You can find my Strava{" "}
+            <Link
+              href="https://www.strava.com/athletes/49373732"
+              className="hover:text-blue-600"
+            >
+              here.
+            </Link>
           </p>
           <div>
             <h2 className="text-xl font-semibold my-4">
