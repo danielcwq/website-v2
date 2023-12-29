@@ -17,6 +17,11 @@ const Writing = () => {
             for Raffles Institution (800m/ cross country).
           </p>
           <p className="mt-5">
+            My training philosophy (as with most things in life): consistency
+            pays. Train smart, consistently and sustainably. Know your body and
+            practise intensity control.
+          </p>
+          <p className="mt-5">
             I read up on sports science research papers in my free time, so feel
             free to{" "}
             <Link
