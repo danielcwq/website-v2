@@ -1,9 +1,10 @@
 import Navigation from "../components/Navigation";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const Writing = () => {
   return (
-    <div className="bg-white px-4 dark:bg-gray-800 text-gray-900 dark:text-white">
+    <div className="bg-white px-4 dark:bg-gray-800 text-gray-900 dark:text-white min-h-screen w-full">
       <div className="fixed">
         <Navigation />
       </div>
@@ -36,6 +37,17 @@ const Writing = () => {
                   className="hover:text-blue-600"
                 >
                   2022 Wrapped: Lessons learnt from high school in Singapore
+                </Link>
+              </li>
+            </ul>{" "}
+            <ul className="list-disc pl-5 mt-2 md:mt-6">
+              <li>
+                <Link
+                  href="https://danielching.notion.site/On-faith-as-a-JC-student-425147eec72748d280659972b7429219?pvs=4"
+                  target="_blank"
+                  className="hover:text-blue-600"
+                >
+                  On faith as a JC student
                 </Link>
               </li>
             </ul>{" "}
